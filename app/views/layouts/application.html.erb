@@ -21,8 +21,12 @@
   </head>
 
   <body>
-    <%= render 'layouts/navbar' %>
-    <%= yield %>
-    <%= render 'layouts/footer' %>
+    <header>
+      <%= render 'layouts/navbar' %>
+      <%= render 'layouts/alerts' %>
+    </header>
+    <main>
+      <%= yield %>
+    </main>
   </body>
 </html>
