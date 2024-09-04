@@ -17,4 +17,5 @@ RSpec.describe "posts/show", type: :view do
     expect(rendered).to match(//)
     expect(rendered).to match(/2/)
   end
+
 end
