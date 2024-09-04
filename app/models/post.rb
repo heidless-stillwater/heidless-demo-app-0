@@ -4,4 +4,6 @@ class Post < ApplicationRecord
   validates :views, numericality: {only_integer: true}
 
   belongs_to :user
+  has_many :comments, dependent: :destroy
+
 end
