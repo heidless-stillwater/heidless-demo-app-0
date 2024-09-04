@@ -80,8 +80,6 @@ RSpec.describe Post, type: :model do
       views: 0
     )
     expect(post.views).to be_a(Integer)
-
   end
-
 
 end

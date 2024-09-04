@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get '/u/:id', to: 'users#profile', as: 'user'
 
   get 'about', to: "pages#about"
+  # get 'pages/about'
+
   resources :posts
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
