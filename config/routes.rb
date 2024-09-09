@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'about', to: "pages#about"
   # get 'pages/about'
 
+  # /posts/1/comments/4
   resources :posts do 
     resources :comments
   end
