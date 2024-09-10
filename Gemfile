@@ -61,3 +61,5 @@ end
 group :development, :test do
   gem "rspec-rails"
 end
+
+gem "noticed", "~> 2.4"
